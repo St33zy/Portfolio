@@ -22,7 +22,7 @@ body {
     color: aliceblue;
     position: relative;
     padding-bottom: 0px;
-    min-height: 105vh;
+    min-height: 70vh;
 }
 .logo {
     width: 250px;
@@ -144,7 +144,7 @@ main {
     font-size: 20px;
     font-family: cursive;
     color: white;
-    margin: 20px;
+    margin: 25px;
     border-radius: 5px;
     box-shadow:  0 2px 4px rgba(0,0,0, .3);
     cursor: pointer;
@@ -152,7 +152,26 @@ main {
 .form1 .label1{
     font-size: 60px;
     color: rgb(128, 49, 49);
+    margin-top: 100px;
+    margin-bottom: 25px;
 }
 .form1 label {
     font-size: 25px;
+    color: rgb(128, 49, 49);
+}
+.success {
+    display: flex;
+    justify-content: center;
+    font-size: 80px;
+    text-align: center;
+
+}
+.gif {
+    display: flex;
+    justify-content: center;
+}
+.gif1 {
+    border-radius: 50%;
+    height: 400px;
+    width: 400px;
 }
