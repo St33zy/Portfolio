@@ -120,3 +120,39 @@ main {
     margin-bottom: 0 !important;
 
 }
+
+.form1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid white; */
+}
+.form1 input::placeholder {
+    text-align: center;
+
+}
+.form1 textarea::placeholder {
+    text-align: center;
+    color: rgb(128, 49, 49);
+}
+.btn {
+    background-color: rgb(128, 49, 49);
+    border: none;
+    width: 24%;
+    padding: 15px;
+    font-size: 20px;
+    font-family: cursive;
+    color: white;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow:  0 2px 4px rgba(0,0,0, .3);
+    cursor: pointer;
+}
+.form1 .label1{
+    font-size: 60px;
+    color: rgb(128, 49, 49);
+}
+.form1 label {
+    font-size: 25px;
+}
