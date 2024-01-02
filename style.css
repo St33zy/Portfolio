@@ -139,7 +139,7 @@ p {
     text-align: center;
     color: rgb(128, 49, 49);
 }
-.btn {
+#submit {
     background-color: rgb(128, 49, 49);
     border: none;
     width: 24%;
