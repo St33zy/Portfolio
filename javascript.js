@@ -1,5 +1,5 @@
 const form = document.querySelector('.form1')
-const submitButton = document.querySelector('.btn')
+const submitButton = document.querySelector('#submit')
 
 form.addEventListener('submit', (e) => {
   submitButton.disabled = true
