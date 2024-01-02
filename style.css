@@ -87,9 +87,9 @@ p {
     align-items: center;
     box-shadow: 3px 3px rgb(78, 15, 15), -1em 0 .4em rgb(78, 15, 15);
 }
-main {
-    /* padding: 100px 50px 100px; */
-}
+/* main {
+    padding: 100px 50px 100px;
+} */
 .container1 {
     display: flex;
     flex-wrap: wrap;
